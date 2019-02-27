@@ -1,7 +1,7 @@
 
 ---------------------------------------
 
-This is a document to introduce some important git commands. Text within < > should be replaced for your own good.
+List of important git commands. Text within < > should be replaced by your own information.
 
 ---------------------------------------
 - Download and install [Github Desktop] (https://desktop.github.com/). 
@@ -12,6 +12,18 @@ This is a document to introduce some important git commands. Text within < > sho
         git init
 
   Then this folder is your local repository. You can track all your changes.
+  
+- If we want to link this local repo to your github account, then go to your github account, creat a new empty repo. Then copy the link.
+
+       cd <path-to-repo>
+       git remote add origin <URL-to-remote-repo>
+
+  You probably need to type in your github password for doing this.
+  
+- If you have a remote repo, then just clone it to your local computer:
+      
+       git clone <URL-to-remote-repo>
+       
 - Create new files, then add them to your repo:
 
         git add <file1> <file2>
@@ -22,7 +34,7 @@ This is a document to introduce some important git commands. Text within < > sho
  
 - Delete files, then stage the deletion for next commit:
  
-       git rm <file1> <file2>
+        git rm <file1> <file2>
 
 - Check your local repo status:
 
@@ -35,13 +47,6 @@ This is a document to introduce some important git commands. Text within < > sho
 
         git commit -a
   then edit your commit file.
-
-- If we want to link this local repo to your github account, then go to your github account, creat a new repo. Then copy the url.
-
-      cd <path-to-repo>
-      git remote add origin <https://github.com/yangyuan173/Github_learn.git>
-
-  You probably need to type in your github password for doing this.
 
 - Check your local repo status:
 
@@ -59,4 +64,11 @@ This is a document to introduce some important git commands. Text within < > sho
 
       git pull
 
-
+- If you want to go back to a previous version, check the log file first:
+      
+      git log
+  then fork the old version as a new branch:
+      
+      git checkout -b newBranch oldCommitHashOrBranchName
+      
+      
