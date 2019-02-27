@@ -4,7 +4,7 @@
 List of important git commands. Text within < > should be replaced by your own information.
 
 ---------------------------------------
-- Download and install [Github Desktop] (https://desktop.github.com/). 
+- Download and install [Github Desktop](https://desktop.github.com/). 
 
 - Create a local repo:
 
