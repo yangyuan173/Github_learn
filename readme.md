@@ -1,6 +1,6 @@
 ---------------------------------------
 
-This is a document to introduce some important git commands. Text within < > should be replaced for your own needs.
+This is a document to introduce some important git commands. Text within < > should be replaced for your own good.
 
 ---------------------------------------
 - Download and install [Github Desktop](https://desktop.github.com/). 
