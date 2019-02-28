@@ -63,6 +63,10 @@ List of important git commands. Text within < > should be replaced by your own i
   If your local repo is out of date, then update your local repo:
 
       git pull
+      
+      
+--------------------------------
+# Advanced commands
 
 - If you want to go back to a previous version, check the log file first:
       
@@ -71,4 +75,16 @@ List of important git commands. Text within < > should be replaced by your own i
       
       git checkout -b newBranch oldCommitHashOrBranchName
       
-      
+ - Delete a local branch:
+ 
+       git branch -d newBranch
+   or: 
+       
+       git branch -D newBranch
+       
+- To delete a remote branch you can use the following command:
+
+       git push <remote_name> --delete <branch_name>
+       
+       
+
