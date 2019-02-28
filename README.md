@@ -11,4 +11,4 @@
 - Fork: make a branch copy of other's repository. 
 - Issue: questions people post to you.
 - Commit: make changes to your files.
-- Stage: stage changes finely to commit.
+- [Stage](https://softwareengineering.stackexchange.com/questions/119782/what-does-stage-mean-in-git): stage changes finely to commit.
