@@ -2,7 +2,7 @@
 
 ## Important concepts
 
-- Repository: personal project, private or public.
+- Repository: personal project, can be private or public.
   - branch: master or others.
 - Pull: make changes to your repository (local or master)
   - pull request: A "pull request" is someone requesting the target repository to please grab their changes. 
