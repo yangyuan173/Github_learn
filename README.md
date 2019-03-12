@@ -5,7 +5,7 @@
 - Repository: A repository is simply a place where the history of your work is stored., can be private or public.
   - Branches are effectively forks within your own repository. Your branches will have an ancestor commit in your repository, and will diverge from that commit with your changes. You can later merge your branch changes. Branches let you work on multiple disparate features at once.
   
-- Pull: make changes to your repository (local or master)
+- Pull: make changes to your repository (local or remote)
   - Pull request: a "pull request" is someone requesting the target repository to please grab their changes. 
   
 - Push: update your changes to your remote repository.
