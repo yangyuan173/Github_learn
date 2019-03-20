@@ -13,7 +13,7 @@ List of important git commands. Text within < > should be replaced by your own i
 
   Then this folder is your local repository. You can track all your changes.
   
-- If we want to link this local repo to your github account, then go to your github account, creat a new empty repo. Then copy the link.
+- If we want to link this local repo to your github account, then go to your github account, creat a new "empty" repo. Then copy the link.
 
        cd <path-to-repo>
        git remote add origin <URL-to-remote-repo>
