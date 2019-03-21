@@ -40,10 +40,10 @@ List of important git commands. Text within < > should be replaced by your own i
 
         git status
 
-  If there are any changes, commit all changes:
+  If there are any changes that have been staged (add/rm), commit all changes:
 
         git commit -m "Your Message"
-  or only commit some changes:
+  Commit some changes without staging:
 
         git commit -a
   then edit your commit file.
