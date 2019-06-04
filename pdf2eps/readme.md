@@ -9,7 +9,7 @@
       
 - Change permission of *pdf2eps*
 
-      chmod 777 pdf2eps2
+      chmod 777 pdf2eps
       
 - Converting multiple files in *figure* folder
 
