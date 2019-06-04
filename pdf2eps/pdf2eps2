@@ -9,3 +9,4 @@ pdftops $filename.pdf $filename-temp.ps
 ps2eps $filename-temp.ps
 mv $filename-temp.eps $filename.eps
 rm $filename-temp.ps
+rm $filename-eps-converted-to.pdf
