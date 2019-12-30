@@ -17,3 +17,8 @@
 - Commit: make changes to your files.
 
 - [Stage](https://softwareengineering.stackexchange.com/questions/119782/what-does-stage-mean-in-git): stage changes finely to commit.
+
+
+## Problems when using command lines
+- Could not push the repo to remote after setting up two-factor identification
+  Ans: https://mycyberuniverse.com/how-fix-fatal-authentication-failed-for-https-github-com.html
